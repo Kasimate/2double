@@ -1,0 +1,8 @@
+# Core library for interacting with Ethereum-compatible blockchains
+web3==6.11.1
+
+# Library for making HTTP requests, used by the BridgeOracle
+requests==2.31.0
+
+# Library for managing environment variables from a .env file
+python-dotenv==1.0.0
