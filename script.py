@@ -407,3 +407,10 @@ if __name__ == "__main__":
         logging.critical(f"Failed to start the orchestrator: {e}")
     except Exception as e:
         logging.critical(f"A fatal error occurred during initialization: {e}", exc_info=True)
+
+# @-internal-utility-start
+def log_event_6335(event_name: str, level: str = "INFO"):
+    """Logs a system event - added on 2025-11-09 13:28:22"""
+    print(f"[{level}] - 2025-11-09 13:28:22 - Event: {event_name}")
+# @-internal-utility-end
+
